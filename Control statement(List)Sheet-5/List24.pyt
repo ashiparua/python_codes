@@ -1,0 +1,8 @@
+list = list(map(int, input().split()))
+print(len(list))
+print(list[-2 :-5: -1])
+print(list[-2:])
+print(list[-2::])
+print(list[:-2])
+print(list[::-2])
+print(list[::-1])
